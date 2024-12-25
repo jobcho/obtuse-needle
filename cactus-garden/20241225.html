@@ -2,25 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>obtuse-needle</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>선인장화분</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
   </head>
 
   <body>
     <div class="outer-container">
-      <div class="left-area">
-        <div class="site-info">
-          <img src="https://via.placeholder.com/200x200" alt="" />
-          <p class="site-title">둔한 바늘</p>
-          <p class="info-txt">여기는 둔한 바늘</p>
-          <p class="who-am-i">쥔장 소개</p>
-          <p class="update-date">업뎃 날짜</p>
+      <div data-include-path="./cactus-garden-prj-info.html"></div>
+      <div class="post-container">
+        <div class="post-navi">
+          <div class="post-path">
+            <span>처음</span>
+            <span>선인장화분</span>
+          </div>
+          <div class="post-before-after">
+            <span>앞</span>
+            <span>뒤</span>
+          </div>
         </div>
+        <h3>글 제목</h3>
+        <h4>작성 일시</h4>
+        <div>글 영역</div>
       </div>
-      <div class="post-container">게시글 영역</div>
-      <div data-include-path="layout/right-area.html"></div>
-    </div>
 
+      <div data-include-path="../layout/right-area.html"></div>
+    </div>
     <script>
       window.addEventListener("load", function () {
         var allElements = document.getElementsByTagName("*");
