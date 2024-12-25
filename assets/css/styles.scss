@@ -9,5 +9,13 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
   font-family: "Pretendard-Regular";
+}
+
+.outer-container {
+  max-width: 1200px;
+  min-width: 768px;
+  background-color: gray;
 }
