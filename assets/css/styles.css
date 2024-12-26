@@ -9,6 +9,12 @@
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 }
+@font-face {
+  font-family: "DOSPilgiMedium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSPilgiMedium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   display: flex;
   justify-content: center;
@@ -38,6 +44,7 @@ body {
 }
 .post-container .post-header .post-title-date h3 {
   margin-bottom: 1rem;
+  font-family: "DOSPilgiMedium";
   font-size: 2rem;
   font-weight: 700;
 }
@@ -56,8 +63,7 @@ body {
 }
 
 .left-area {
-  width: 20%;
-  max-width: 204px;
+  width: 180px;
   min-width: 180px;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
@@ -67,12 +73,12 @@ body {
 }
 .left-area .prj-info-img {
   width: 100%;
+  border: 1px solid #000;
   border-radius: 50%;
 }
 
 .right-area {
-  width: 20%;
-  max-width: 204px;
+  width: 180px;
   min-width: 180px;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
