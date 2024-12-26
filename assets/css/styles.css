@@ -19,7 +19,6 @@ body {
 .outer-container {
   display: flex;
   justify-content: space-between;
-  height: 100vh;
   background-color: #fff;
 }
 
@@ -48,7 +47,6 @@ body {
 }
 .post-container .post-content {
   padding: 2rem 3rem;
-  height: calc(100vh - 180px);
   font-weight: 300;
   line-height: 1.8rem;
   color: #fff;
