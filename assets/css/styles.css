@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "reset.css";
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
 @font-face {
@@ -36,6 +37,28 @@ body {
 .post-container {
   max-width: 768px;
 }
+.post-container .main-header {
+  border-bottom: 1px solid #000;
+  background-color: #344d67;
+}
+.post-container .main-header .main-title {
+  padding: 3rem 2rem 2rem;
+  font-family: "DOSPilgiMedium";
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  border-bottom: 1px solid #000;
+}
+.post-container .main-header .info-txt-link:hover {
+  -webkit-text-decoration: underline #dedede;
+          text-decoration: underline #dedede;
+}
+.post-container .main-header .info-txt {
+  padding: 1rem 2rem;
+  font-weight: 100;
+  color: #dedede;
+  background-color: #0f1123;
+}
 .post-container .post-header {
   display: flex;
   flex-direction: column;
@@ -56,6 +79,38 @@ body {
 .post-container .post-header .post-title-date h4 {
   font-weight: 100;
 }
+.post-container .main-content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #a6f0c6;
+}
+.post-container .main-content .main-item {
+  width: 50%;
+  border-bottom: 1px solid #000;
+}
+.post-container .main-content .main-item .main-item-txt-wrapper {
+  padding: 1rem;
+}
+.post-container .main-content .main-item .main-item-txt-wrapper .main-item-prj {
+  margin-bottom: 0.5rem;
+  font-weight: 100;
+}
+.post-container .main-content .main-item .main-item-txt-wrapper .main-item-title {
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 400;
+}
+.post-container .main-content .main-item .main-item-txt-wrapper .main-item-date {
+  font-size: 14px;
+  font-weight: 100;
+  color: #332c39;
+}
+.post-container .main-content .main-item:nth-child(2n-1) {
+  border-right: 1px solid #000;
+}
+.post-container .main-content .main-item-img {
+  width: 100%;
+}
 .post-container .post-content {
   padding: 2rem 3rem;
   font-weight: 300;
@@ -73,20 +128,78 @@ body {
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   font-weight: 100;
-  color: #332c39;
+  color: #fff;
   background-color: #a98b98;
 }
-.left-area .prj-info-img {
+.left-area .name-wrapper {
+  padding: 1rem 1rem;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #344d67;
+}
+.left-area .name-wrapper .who-am-i {
+  font-family: "DOSPilgiMedium";
+  color: #fff;
+}
+.left-area .name-wrapper .my-smaller-name {
+  font-family: "DOSPilgiMedium";
+  font-size: 14px;
+  text-align: right;
+  color: #dedede;
+}
+.left-area .profile-wrapper {
+  padding: 1rem 1rem;
+}
+.left-area .profile-wrapper .profile-content {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-align: right;
+}
+.left-area .profile-wrapper .profile-content.insta-link:hover {
+  -webkit-text-decoration: underline #fff;
+          text-decoration: underline #fff;
+}
+.left-area .profile-img-wrapper {
+  background-color: #a6f0c6;
+}
+.left-area .profile-img-wrapper .site-profile-img {
+  transform: translate(0, 2px);
+}
+.left-area .prj-info-img,
+.left-area .site-profile-img {
   width: 100%;
   border: 1px solid #000;
   border-radius: 50%;
 }
 
 .right-area {
+  padding: 1rem;
   width: 180px;
   min-width: 180px;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   color: #fff;
   background-color: #a98b98;
+}
+.right-area .prj-title {
+  margin-top: 1rem;
+  font-family: "DOSPilgiMedium";
+  font-size: 18px;
+}
+.right-area .prj-title.etc:hover {
+  -webkit-text-decoration: underline #fff;
+          text-decoration: underline #fff;
+}
+.right-area .prj-item {
+  position: relative;
+  margin-top: 0.5rem;
+}
+.right-area .prj-item::before {
+  content: "·";
+  display: inline-block;
+  width: 8px;
+}
+.right-area .prj-item:hover {
+  -webkit-text-decoration: underline #fff;
+          text-decoration: underline #fff;
 }/*# sourceMappingURL=styles.css.map */

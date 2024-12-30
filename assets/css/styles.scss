@@ -45,6 +45,28 @@ body {
 .post-container {
   max-width: 768px;
 
+  .main-header {
+    border-bottom: 1px solid #000;
+    background-color: #344d67;
+    .main-title {
+      padding: 3rem 2rem 2rem;
+      font-family: "DOSPilgiMedium";
+      font-size: 2rem;
+      text-align: center;
+      color: #fff;
+      border-bottom: 1px solid #000;
+    }
+    .info-txt-link:hover {
+      text-decoration: underline #dedede;
+    }
+    .info-txt {
+      padding: 1rem 2rem;
+      font-weight: 100;
+      color: #dedede;
+      background-color: #0f1123;
+    }
+  }
+
   .post-header {
     display: flex;
     flex-direction: column;
@@ -70,6 +92,44 @@ body {
     }
   }
 
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a6f0c6;
+    .main-item {
+      width: 50%;
+      border-bottom: 1px solid #000;
+
+      .main-item-txt-wrapper {
+        padding: 1rem;
+
+        .main-item-prj {
+          margin-bottom: 0.5rem;
+          font-weight: 100;
+        }
+
+        .main-item-title {
+          margin-bottom: 1rem;
+          font-size: 18px;
+          font-weight: 400;
+        }
+
+        .main-item-date {
+          font-size: 14px;
+          font-weight: 100;
+          color: #332c39;
+        }
+      }
+    }
+
+    .main-item:nth-child(2n-1) {
+      border-right: 1px solid #000;
+    }
+    .main-item-img {
+      width: 100%;
+    }
+  }
+
   .post-content {
     padding: 2rem 3rem;
     font-weight: 300;
@@ -89,10 +149,47 @@ body {
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   font-weight: 100;
-  color: #332c39;
+  color: #fff;
   background-color: #a98b98;
 
-  .prj-info-img {
+  .name-wrapper {
+    padding: 1rem 1rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #344d67;
+    .who-am-i {
+      font-family: "DOSPilgiMedium";
+      color: #fff;
+    }
+
+    .my-smaller-name {
+      font-family: "DOSPilgiMedium";
+      font-size: 14px;
+      text-align: right;
+      color: #dedede;
+    }
+  }
+  .profile-wrapper {
+    padding: 1rem 1rem;
+    .profile-content {
+      margin-bottom: 1rem;
+      font-weight: 700;
+      text-align: right;
+
+      &.insta-link:hover {
+        text-decoration: underline #fff;
+      }
+    }
+  }
+
+  .profile-img-wrapper {
+    background-color: #a6f0c6;
+    .site-profile-img {
+      transform: translate(0, 2px);
+    }
+  }
+  .prj-info-img,
+  .site-profile-img {
     width: 100%;
     border: 1px solid #000;
     border-radius: 50%;
@@ -100,10 +197,34 @@ body {
 }
 
 .right-area {
+  padding: 1rem;
   width: 180px;
   min-width: 180px;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   color: #fff;
   background-color: #a98b98;
+
+  .prj-title {
+    margin-top: 1rem;
+    font-family: "DOSPilgiMedium";
+    font-size: 18px;
+
+    &.etc:hover {
+      text-decoration: underline #fff;
+    }
+  }
+
+  .prj-item {
+    position: relative;
+    margin-top: 0.5rem;
+    &::before {
+      content: "·";
+      display: inline-block;
+      width: 8px;
+    }
+    &:hover {
+      text-decoration: underline #fff;
+    }
+  }
 }
