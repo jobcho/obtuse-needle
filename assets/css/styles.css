@@ -199,7 +199,8 @@ body {
   display: inline-block;
   width: 8px;
 }
-.right-area .prj-item:hover {
+
+.link-hover:hover {
   -webkit-text-decoration: underline #fff;
           text-decoration: underline #fff;
 }/*# sourceMappingURL=styles.css.map */
