@@ -223,8 +223,11 @@ body {
       display: inline-block;
       width: 8px;
     }
-    &:hover {
-      text-decoration: underline #fff;
-    }
+  }
+}
+
+.link-hover {
+  &:hover {
+    text-decoration: underline #fff;
   }
 }
