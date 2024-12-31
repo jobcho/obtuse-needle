@@ -335,14 +335,15 @@ body {
     font-size: 4rem;
   }
   .outer-container .post-container .main-header .info-txt-link {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 3rem;
   }
   .outer-container .post-container .main-content .main-item-prj {
     font-size: 2rem;
   }
   .outer-container .post-container .main-content .main-item-title {
-    font-size: 2.2rem !important;
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
     line-height: 3.5rem;
   }
   .outer-container .post-container .main-content .main-item-date {
