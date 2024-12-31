@@ -321,13 +321,17 @@ body {
           flex-direction: column;
           .name-wrapper {
             flex: 1 1 0;
-            font-size: 2rem;
+            font-size: 3rem;
+            .my-smaller-name {
+              font-size: 1.8rem;
+            }
           }
           .profile-wrapper {
             flex: 2 1 0;
             display: flex;
             padding: 0 1rem;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
+            line-height: 2.5rem;
             div {
               flex: 1 1 0;
               display: flex;

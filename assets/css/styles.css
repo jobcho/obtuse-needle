@@ -300,13 +300,17 @@ body {
   }
   .outer-container .left-area .site-info .profile-txt-for-mobile .name-wrapper {
     flex: 1 1 0;
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  .outer-container .left-area .site-info .profile-txt-for-mobile .name-wrapper .my-smaller-name {
+    font-size: 1.8rem;
   }
   .outer-container .left-area .site-info .profile-txt-for-mobile .profile-wrapper {
     flex: 2 1 0;
     display: flex;
     padding: 0 1rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
   }
   .outer-container .left-area .site-info .profile-txt-for-mobile .profile-wrapper div {
     flex: 1 1 0;
