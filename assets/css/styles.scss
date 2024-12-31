@@ -44,6 +44,8 @@ body {
 
 .post-container {
   max-width: 768px;
+  height: 100vh;
+  overflow: scroll;
 
   .main-header {
     border-bottom: 1px solid #000;
@@ -54,7 +56,7 @@ body {
       font-size: 2rem;
       text-align: center;
       color: #fff;
-      border-bottom: 1px solid #000;
+      border-bottom: 1px dashed #000;
     }
     .info-txt-link:hover {
       text-decoration: underline #dedede;
@@ -62,6 +64,7 @@ body {
     .info-txt {
       padding: 1rem 2rem;
       font-weight: 100;
+      text-align: center;
       color: #dedede;
       background-color: #0f1123;
     }
@@ -71,9 +74,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 1rem 1.3rem;
     background-color: #a6f0c6;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px dashed #000;
 
     .post-navi {
       margin: 1rem 0 3rem;
@@ -96,11 +99,25 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #a6f0c6;
+
     .main-item {
+      display: flex;
+      flex-direction: column;
       width: 50%;
       border-bottom: 1px solid #000;
 
+      .main-item-img-wrapper {
+        .main-item-img {
+          aspect-ratio: 4/3;
+          object-fit: cover;
+          border-bottom: 1px dashed #000;
+        }
+      }
       .main-item-txt-wrapper {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         padding: 1rem;
 
         .main-item-prj {
@@ -132,10 +149,12 @@ body {
 
   .post-content {
     padding: 2rem 3rem;
+    height: calc(100vh - 178px);
     font-weight: 300;
     line-height: 1.8rem;
     color: #fff;
     background-color: #0f1123;
+    overflow: scroll;
 
     p {
       margin-bottom: 0.5rem;
@@ -144,6 +163,8 @@ body {
 }
 
 .left-area {
+  display: flex;
+  flex-direction: column;
   width: 180px;
   min-width: 180px;
   border-left: 1px solid #000;
@@ -152,12 +173,14 @@ body {
   color: #fff;
   background-color: #a98b98;
 
-  .name-wrapper {
+  .name-wrapper,
+  .prj-name-wrapper {
     padding: 1rem 1rem;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     background-color: #344d67;
-    .who-am-i {
+    .who-am-i,
+    .prj-title {
       font-family: "DOSPilgiMedium";
       color: #fff;
     }
@@ -169,22 +192,22 @@ body {
       color: #dedede;
     }
   }
-  .profile-wrapper {
+  .profile-wrapper,
+  .prj-info-wrapper {
     padding: 1rem 1rem;
-    .profile-content {
+    .profile-content,
+    .prj-info-content {
       margin-bottom: 1rem;
       font-weight: 700;
       text-align: right;
-
-      &.insta-link:hover {
-        text-decoration: underline #fff;
-      }
     }
   }
 
-  .profile-img-wrapper {
+  .profile-img-wrapper,
+  .prj-img-wrapper {
     background-color: #a6f0c6;
-    .site-profile-img {
+    .site-profile-img,
+    .prj-info-img {
       transform: translate(0, 2px);
     }
   }
@@ -193,6 +216,46 @@ body {
     width: 100%;
     border: 1px solid #000;
     border-radius: 50%;
+  }
+  .prj-record {
+    flex-grow: 1;
+    padding: 1rem;
+    color: #0f1123;
+    background-color: #dedede;
+    border-top: 1px solid #000;
+
+    h3 {
+      font-weight: 400;
+    }
+
+    .prj-record-item {
+      position: relative;
+      margin-top: 0.5rem;
+      font-size: 14px;
+      &::before {
+        content: "·";
+        display: inline-block;
+        width: 4px;
+      }
+      .prj-record-date {
+        color: #332c39;
+
+        &::before {
+          content: "…";
+          display: inline-block;
+          width: 20px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .prj-subtitle {
+    padding: 1rem;
+    font-family: "Pretendard Variable";
+    font-size: 14px;
+    color: #0f1123;
+    background-color: #dedede;
+    border-bottom: 1px solid #000;
   }
 }
 
