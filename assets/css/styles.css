@@ -299,4 +299,8 @@ body {
   .outer-container .post-container {
     max-width: 100%;
   }
+  .outer-container .right-area {
+    position: fixed;
+    bottom: 0;
+  }
 }/*# sourceMappingURL=styles.css.map */
