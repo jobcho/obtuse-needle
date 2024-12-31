@@ -237,7 +237,8 @@ body {
   border-bottom: 1px solid #000;
 }
 
-.right-area {
+.right-area,
+.mobile-bottom-area {
   padding: 1rem;
   width: 180px;
   min-width: 180px;
@@ -246,20 +247,24 @@ body {
   color: #fff;
   background-color: #a98b98;
 }
-.right-area .prj-title {
+.right-area .prj-title,
+.mobile-bottom-area .prj-title {
   margin-top: 1rem;
   font-family: "DOSPilgiMedium";
   font-size: 18px;
 }
-.right-area .prj-title.etc:hover {
+.right-area .prj-title.etc:hover,
+.mobile-bottom-area .prj-title.etc:hover {
   -webkit-text-decoration: underline #fff;
           text-decoration: underline #fff;
 }
-.right-area .prj-item {
+.right-area .prj-item,
+.mobile-bottom-area .prj-item {
   position: relative;
   margin-top: 0.5rem;
 }
-.right-area .prj-item::before {
+.right-area .prj-item::before,
+.mobile-bottom-area .prj-item::before {
   content: "·";
   display: inline-block;
   width: 8px;
@@ -321,16 +326,24 @@ body {
     max-width: 100%;
   }
   .outer-container .right-area {
-    display: flex;
+    display: none;
+  }
+  .outer-container .mobile-bottom-area {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 140px;
+    font-size: 48px;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
   }
-  .outer-container .right-area div {
+  .outer-container .mobile-bottom-area div {
     flex: 1 1 0;
   }
-  .outer-container .right-area .ing-prj-list,
-  .outer-container .right-area .done-prj-list {
+  .outer-container .mobile-bottom-area .mobile-all-project {
     display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
