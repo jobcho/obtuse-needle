@@ -339,14 +339,14 @@ body {
     line-height: 3rem;
   }
   .outer-container .post-container .main-content .main-item-prj {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .outer-container .post-container .main-content .main-item-title {
-    font-size: 2rem !important;
-    line-height: 3rem;
+    font-size: 2.2rem !important;
+    line-height: 3.5rem;
   }
   .outer-container .post-container .main-content .main-item-date {
-    font-size: 1.2rem !important;
+    font-size: 1.8rem !important;
   }
   .outer-container .right-area {
     display: none;
