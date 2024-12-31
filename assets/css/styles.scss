@@ -362,26 +362,29 @@ body {
         }
         .info-txt-link {
           font-size: 2rem;
-          line-height: 3rem;
+          line-height: 4rem;
         }
       }
 
       .main-content {
-        .main-item-prj {
-          font-size: 2rem;
-        }
-        .main-item-title {
-          font-size: 2.5rem !important;
-          font-weight: 700 !important;
-          line-height: 3.5rem;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-        }
-        .main-item-date {
-          font-size: 1.8rem !important;
+        .main-item-txt-wrapper {
+          padding: 2rem;
+          .main-item-prj {
+            font-size: 2rem;
+          }
+          .main-item-title {
+            font-size: 2.5rem !important;
+            font-weight: 700 !important;
+            line-height: 3.5rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          .main-item-date {
+            font-size: 1.8rem !important;
+          }
         }
       }
     }

@@ -336,12 +336,15 @@ body {
   }
   .outer-container .post-container .main-header .info-txt-link {
     font-size: 2rem;
-    line-height: 3rem;
+    line-height: 4rem;
   }
-  .outer-container .post-container .main-content .main-item-prj {
+  .outer-container .post-container .main-content .main-item-txt-wrapper {
+    padding: 2rem;
+  }
+  .outer-container .post-container .main-content .main-item-txt-wrapper .main-item-prj {
     font-size: 2rem;
   }
-  .outer-container .post-container .main-content .main-item-title {
+  .outer-container .post-container .main-content .main-item-txt-wrapper .main-item-title {
     font-size: 2.5rem !important;
     font-weight: 700 !important;
     line-height: 3.5rem;
@@ -351,7 +354,7 @@ body {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
   }
-  .outer-container .post-container .main-content .main-item-date {
+  .outer-container .post-container .main-content .main-item-txt-wrapper .main-item-date {
     font-size: 1.8rem !important;
   }
   .outer-container .right-area {
