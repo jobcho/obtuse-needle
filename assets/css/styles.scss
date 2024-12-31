@@ -374,6 +374,11 @@ body {
           font-size: 2.5rem !important;
           font-weight: 700 !important;
           line-height: 3.5rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
         }
         .main-item-date {
           font-size: 1.8rem !important;
