@@ -1,16 +1,7 @@
-window.addEventListener("load", function () {
-  var allElements = document.getElementsByTagName("*");
-  Array.prototype.forEach.call(allElements, function (el) {
-    var includePath = el.dataset.includePath;
-    if (includePath) {
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-          el.outerHTML = this.responseText;
-        }
-      };
-      xhttp.open("GET", includePath, true);
-      xhttp.send();
-    }
-  });
+const $mobileNavBtn = document.querySelector(".mobile-bottom-area");
+$mobileNavBtn.addEventListener("click", () => {
+  console.log("dee");
+  const $mobileAllProject = document.querySelector(".mobile-all-project");
+
+  $mobileAllProject.style.display = "block";
 });
