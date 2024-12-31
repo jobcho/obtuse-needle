@@ -321,7 +321,16 @@ body {
     max-width: 100%;
   }
   .outer-container .right-area {
+    display: flex;
     position: fixed;
     bottom: 0;
+    width: 100%;
+  }
+  .outer-container .right-area div {
+    flex: 1 1 0;
+  }
+  .outer-container .right-area .ing-prj-list,
+  .outer-container .right-area .done-prj-list {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */

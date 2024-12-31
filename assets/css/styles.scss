@@ -350,8 +350,17 @@ body {
       max-width: 100%;
     }
     .right-area {
+      display: flex;
       position: fixed;
       bottom: 0;
+      width: 100%;
+      div {
+        flex: 1 1 0;
+      }
+      .ing-prj-list,
+      .done-prj-list {
+        display: none;
+      }
     }
   }
 }
