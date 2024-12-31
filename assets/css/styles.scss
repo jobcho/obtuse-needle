@@ -353,6 +353,15 @@ body {
     }
     .post-container {
       max-width: 100%;
+
+      .main-header {
+        .main-title {
+          font-size: 3rem;
+        }
+        .info-txt-link {
+          font-size: 1.5rem;
+        }
+      }
     }
     .right-area {
       display: none;
