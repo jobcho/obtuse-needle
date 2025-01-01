@@ -347,15 +347,15 @@ body {
     padding: 1rem;
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper {
-    padding: 2rem;
+    padding: 1rem;
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper .main-item-prj {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper .main-item-title {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
     font-weight: 700 !important;
-    line-height: 3.5rem;
+    line-height: 2.2rem;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -363,7 +363,7 @@ body {
     -webkit-box-orient: vertical;
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper .main-item-date {
-    font-size: 1.8rem !important;
+    font-size: 1rem !important;
   }
   .outer-container .right-area {
     display: none;
@@ -375,10 +375,10 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 140px;
-    font-size: 48px;
-    border-top-left-radius: 64px;
-    border-top-right-radius: 64px;
+    height: 5rem;
+    font-size: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
   }
   .outer-container .mobile-bottom-area div {
     flex: 1 1 0;
