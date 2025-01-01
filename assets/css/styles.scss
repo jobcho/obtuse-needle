@@ -311,7 +311,7 @@ body {
         display: flex;
         border-bottom: 1px solid #000;
         .profile-img-wrapper {
-          width: 25%;
+          width: 20%;
           border-right: 1px solid #000;
           .site-profile-img {
           }
@@ -336,7 +336,7 @@ body {
             flex: 2 1 0;
             display: flex;
             padding: 0 0.5rem;
-            font-size: 0.8rem;
+            font-size: 1rem;
             line-height: 1.2rem;
             div {
               flex: 1 1 0;
@@ -360,6 +360,7 @@ body {
     }
     .post-container {
       max-width: 100%;
+      height: auto;
 
       .main-header {
         .main-title {
@@ -401,22 +402,39 @@ body {
     .right-area {
       display: none;
     }
+    .dimmed-layer {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
     .mobile-bottom-area {
       display: flex !important;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       position: fixed;
       bottom: 0;
       width: 100%;
-      height: 5rem;
       font-size: 2rem;
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
+      border: none;
       div {
         flex: 1 1 0;
       }
       .mobile-all-project {
         display: none;
+
+        .prj-title {
+          margin-bottom: 0.5rem;
+          font-size: 2rem;
+        }
+        .prj-item {
+          display: inline;
+          font-size: 1.5rem;
+          text-decoration: underline;
+        }
       }
     }
   }
@@ -486,6 +504,7 @@ body {
     }
     .post-container {
       max-width: 100%;
+      height: auto;
 
       .main-header {
         .main-title {
@@ -527,22 +546,39 @@ body {
     .right-area {
       display: none;
     }
+    .dimmed-layer {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
     .mobile-bottom-area {
       display: flex !important;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       position: fixed;
       bottom: 0;
       width: 100%;
-      height: 5rem;
       font-size: 2rem;
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
+      border: none;
       div {
         flex: 1 1 0;
       }
       .mobile-all-project {
         display: none;
+
+        .prj-title {
+          margin-bottom: 0.5rem;
+          font-size: 2rem;
+        }
+        .prj-item {
+          display: inline;
+          font-size: 1.5rem;
+          text-decoration: underline;
+        }
       }
     }
   }
