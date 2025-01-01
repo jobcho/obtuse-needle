@@ -422,7 +422,7 @@ body {
   }
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 424px) and (orientation: portrait) {
   body {
     background-color: #fff;
   }
