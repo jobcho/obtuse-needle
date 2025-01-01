@@ -323,17 +323,21 @@ body {
           flex-direction: column;
           .name-wrapper {
             flex: 1 1 0;
-            font-size: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.2rem;
+
             .my-smaller-name {
-              font-size: 1.8rem;
+              font-size: 1rem;
             }
           }
           .profile-wrapper {
             flex: 2 1 0;
             display: flex;
-            padding: 0 1rem;
-            font-size: 1.8rem;
-            line-height: 2.5rem;
+            padding: 0 0.5rem;
+            font-size: 0.8rem;
+            line-height: 1.2rem;
             div {
               flex: 1 1 0;
               display: flex;
@@ -341,8 +345,9 @@ body {
               justify-content: center;
 
               &:not(:last-child) {
-                margin-right: 1rem;
-                padding-right: 1rem;
+                margin-right: 0.5rem;
+                padding: 0.5rem 0;
+                padding-right: 0.5rem;
                 border-right: 1px solid #000;
               }
             }
@@ -358,11 +363,16 @@ body {
 
       .main-header {
         .main-title {
-          font-size: 4rem;
+          padding: 1.5rem;
+          font-size: 2rem;
         }
         .info-txt-link {
-          font-size: 2rem;
-          line-height: 4rem;
+          font-size: 1.2rem;
+          line-height: 2rem;
+
+          .info-txt {
+            padding: 1rem;
+          }
         }
       }
 
