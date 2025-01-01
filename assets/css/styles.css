@@ -524,12 +524,14 @@ body {
     display: none;
   }
   .outer-container .mobile-bottom-area .mobile-all-project .prj-title {
-    margin-bottom: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .outer-container .mobile-bottom-area .mobile-all-project .prj-title:last-child {
+    text-decoration: underline;
   }
   .outer-container .mobile-bottom-area .mobile-all-project .prj-item {
     display: inline;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: underline;
   }
 }/*# sourceMappingURL=styles.css.map */

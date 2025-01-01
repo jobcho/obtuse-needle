@@ -571,12 +571,15 @@ body {
         display: none;
 
         .prj-title {
-          margin-bottom: 0.5rem;
-          font-size: 2rem;
+          font-size: 1.5rem;
+
+          &:last-child {
+            text-decoration: underline;
+          }
         }
         .prj-item {
           display: inline;
-          font-size: 1.5rem;
+          font-size: 1rem;
           text-decoration: underline;
         }
       }
