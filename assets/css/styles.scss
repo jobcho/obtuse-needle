@@ -82,7 +82,7 @@ body {
     border-bottom: 1px dashed #000;
 
     .post-navi {
-      margin: 1rem 0 3rem;
+      margin: 1rem 0;
     }
 
     .post-title-date {
@@ -193,6 +193,17 @@ body {
       text-align: right;
       color: #dedede;
     }
+  }
+
+  .prj-info {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-prj-detail-wrapper {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
   }
   .profile-wrapper,
   .prj-info-wrapper {
@@ -319,7 +330,6 @@ body {
 
       .site-info {
         display: flex;
-        border-bottom: 1px solid #000;
         .profile-img-wrapper {
           width: 120px;
           border-right: 1px solid #000;
@@ -376,6 +386,7 @@ body {
           flex-direction: column;
           .prj-name-wrapper {
             padding: 0.5rem;
+            border-top: 0;
           }
           .prj-subtitle {
             flex: 1 1 0;
@@ -407,6 +418,7 @@ body {
           padding: 8px 0;
           font-size: 0.8rem;
           font-weight: 700;
+          color: #332c39;
         }
         .mobile-prj-detail-wrapper {
           display: none;
@@ -469,11 +481,9 @@ body {
         }
       }
 
-      .post-navi {
-        margin-bottom: 2rem;
-      }
       .post-content {
         margin-bottom: 3.5rem;
+        padding: 1.5rem;
       }
     }
     .right-area {
@@ -494,8 +504,8 @@ body {
       bottom: 0;
       width: 100%;
       font-size: 1.5rem;
-      border-top-left-radius: 2rem;
-      border-top-right-radius: 2rem;
+      border-top-left-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
       border: none;
       box-shadow: 0 -5px 50px -25px rgba(0, 0, 0, 0.5);
       div {
@@ -535,7 +545,6 @@ body {
 
       .site-info {
         display: flex;
-        border-bottom: 1px solid #000;
         .profile-img-wrapper {
           width: 80px;
           border-right: 1px solid #000;
@@ -592,6 +601,7 @@ body {
           flex-direction: column;
           .prj-name-wrapper {
             padding: 0.5rem;
+            border-top: 0;
           }
           .prj-subtitle {
             flex: 1 1 0;
@@ -625,6 +635,7 @@ body {
           padding: 8px 0;
           font-size: 0.8rem;
           font-weight: 700;
+          color: #332c39;
         }
         .mobile-prj-detail-wrapper {
           display: none;
@@ -642,7 +653,7 @@ body {
       }
     }
     .post-container {
-      margin-top: 6.5rem;
+      margin-top: 4.5rem;
       max-width: 100%;
       height: auto;
       background-color: #a98b98;
@@ -686,11 +697,12 @@ body {
         }
       }
 
-      .post-navi {
-        margin-bottom: 2rem;
+      .post-header {
+        padding-top: 3rem;
       }
       .post-content {
-        margin-bottom: 4rem;
+        margin-bottom: 3.5rem;
+        padding: 1.5rem;
       }
     }
     .right-area {
@@ -711,8 +723,8 @@ body {
       bottom: 0;
       width: 100%;
       font-size: 1.5rem;
-      border-top-left-radius: 2rem;
-      border-top-right-radius: 2rem;
+      border-top-left-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
       border: none;
       box-shadow: 0 -5px 50px -25px rgba(0, 0, 0, 0.5);
       div {
