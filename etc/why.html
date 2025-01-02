@@ -80,26 +80,17 @@
           <p>물론 그 모든 것은 수동이다. 챗지피티는 쓸 줄 모른다..</p>
         </div>
       </div>
-      <div data-include-path="../layout/right-area.html"></div>
+      <div class="right-area">
+        <div data-include-path="../layout/right-area.html"></div>
+      </div>
+      <div class="dimmed-layer" style="display: none"></div>
+      <div class="mobile-bottom-area" style="display: none">
+        <p>🧶🪡🪢🧵</p>
+        <div data-include-path="../layout/mobile-bottom-nav.html"></div>
+      </div>
     </div>
 
-    <script>
-      window.addEventListener("load", function () {
-        var allElements = document.getElementsByTagName("*");
-        Array.prototype.forEach.call(allElements, function (el) {
-          var includePath = el.dataset.includePath;
-          if (includePath) {
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
-              if (this.readyState == 4 && this.status == 200) {
-                el.outerHTML = this.responseText;
-              }
-            };
-            xhttp.open("GET", includePath, true);
-            xhttp.send();
-          }
-        });
-      });
-    </script>
+    <script type="text/javascript" src="/assets/js/include.js"></script>
+    <script type="text/javascript" src="/assets/js/mobile-nav-btn.js"></script>
   </body>
 </html>

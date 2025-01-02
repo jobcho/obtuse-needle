@@ -307,6 +307,7 @@ body {
 
     .left-area {
       width: 100%;
+      border: none;
       .site-info {
         display: flex;
         border-bottom: 1px solid #000;
@@ -355,6 +356,35 @@ body {
               margin-bottom: 0;
             }
           }
+        }
+      }
+      .prj-info {
+        display: flex;
+        flex-direction: column;
+        .prj-name-subtitle-wrapper {
+          flex: 1 1 0;
+          display: flex;
+          flex-direction: column;
+          .prj-name-wrapper {
+            padding: 0.5rem;
+          }
+          .prj-subtitle {
+            flex: 1 1 0;
+            padding: 0.5rem;
+          }
+        }
+        .mobile-prj-info-wrapper {
+          display: flex;
+          .prj-img-wrapper {
+            width: 20%;
+          }
+        }
+        .mobile-prj-detail-wrapper {
+          display: none;
+          flex: 1 1 0;
+          flex-direction: column;
+          position: absolute;
+          top: 100px;
         }
       }
     }
@@ -420,6 +450,7 @@ body {
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
       border: none;
+      box-shadow: 0 -5px 50px -25px rgba(0, 0, 0, 0.5);
       div {
         flex: 1 1 0;
       }
@@ -451,6 +482,7 @@ body {
 
     .left-area {
       width: 100%;
+      border: none;
       .site-info {
         display: flex;
         border-bottom: 1px solid #000;
@@ -501,6 +533,35 @@ body {
           }
         }
       }
+      .prj-info {
+        display: flex;
+        flex-direction: column;
+        .prj-name-subtitle-wrapper {
+          flex: 1 1 0;
+          display: flex;
+          flex-direction: column;
+          .prj-name-wrapper {
+            padding: 0.5rem;
+          }
+          .prj-subtitle {
+            flex: 1 1 0;
+            padding: 0.5rem;
+          }
+        }
+        .mobile-prj-info-wrapper {
+          display: flex;
+          .prj-img-wrapper {
+            width: 20%;
+          }
+        }
+        .mobile-prj-detail-wrapper {
+          display: none;
+          flex: 1 1 0;
+          flex-direction: column;
+          position: absolute;
+          top: 100px;
+        }
+      }
     }
     .post-container {
       max-width: 100%;
@@ -544,7 +605,6 @@ body {
       }
     }
     .right-area {
-      display: none;
     }
     .dimmed-layer {
       position: absolute;
@@ -564,6 +624,7 @@ body {
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
       border: none;
+      box-shadow: 0 -5px 50px -25px rgba(0, 0, 0, 0.5);
       div {
         flex: 1 1 0;
       }
