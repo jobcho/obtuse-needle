@@ -446,7 +446,7 @@ body.modal-open {
     display: none;
   }
   .outer-container .dimmed-layer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
@@ -513,10 +513,11 @@ body.modal-open {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    padding: 0.5rem;
   }
   .outer-container .left-area .site-info .profile-txt-for-mobile .name-wrapper .my-smaller-name {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .outer-container .left-area .site-info .profile-txt-for-mobile .profile-wrapper {
     flex: 2 1 0;
@@ -647,7 +648,7 @@ body.modal-open {
     display: none;
   }
   .outer-container .dimmed-layer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
