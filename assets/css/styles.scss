@@ -315,6 +315,8 @@ body {
       position: fixed;
       width: 100%;
       border: none;
+      border-bottom: 1px solid #000;
+
       .site-info {
         display: flex;
         border-bottom: 1px solid #000;
@@ -390,7 +392,6 @@ body {
         }
         .mobile-prj-more-btn {
           display: block;
-          border-bottom: 1px solid #000;
           &.clicked {
             display: none;
           }
@@ -468,6 +469,9 @@ body {
         }
       }
 
+      .post-navi {
+        margin-bottom: 2rem;
+      }
       .post-content {
         margin-bottom: 3.5rem;
       }
@@ -527,6 +531,8 @@ body {
       position: fixed;
       width: 100%;
       border: none;
+      border-bottom: 1px solid #000;
+
       .site-info {
         display: flex;
         border-bottom: 1px solid #000;
@@ -604,7 +610,6 @@ body {
         }
         .mobile-prj-more-btn {
           display: block;
-          border-bottom: 1px solid #000;
           &.clicked {
             display: none;
           }
@@ -637,7 +642,7 @@ body {
       }
     }
     .post-container {
-      margin-top: 4.5rem;
+      margin-top: 6.5rem;
       max-width: 100%;
       height: auto;
       background-color: #a98b98;
@@ -681,6 +686,9 @@ body {
         }
       }
 
+      .post-navi {
+        margin-bottom: 2rem;
+      }
       .post-content {
         margin-bottom: 4rem;
       }
