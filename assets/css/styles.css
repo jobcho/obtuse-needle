@@ -500,7 +500,7 @@ body.modal-open {
     border-bottom: 1px solid #000;
   }
   .outer-container .left-area .site-info .profile-img-wrapper {
-    width: 100px;
+    width: 80px;
     border-right: 1px solid #000;
   }
   .outer-container .left-area .site-info .profile-txt-for-mobile {
@@ -600,7 +600,7 @@ body.modal-open {
     display: flex;
   }
   .outer-container .post-container {
-    margin-top: 6.5rem;
+    margin-top: 4.5rem;
     max-width: 100%;
     height: auto;
     background-color: #a98b98;
