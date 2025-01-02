@@ -34,6 +34,9 @@ body {
   justify-content: center;
   font-family: "Pretendard Variable";
   background-color: #4e3d53;
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 .outer-container {
@@ -148,7 +151,6 @@ body {
   }
 
   .post-content {
-    margin-bottom: 4rem;
     padding: 2rem 3rem;
     font-weight: 300;
     line-height: 1.8rem;
@@ -216,6 +218,10 @@ body {
     width: 100%;
     border: 1px solid #000;
     border-radius: 50%;
+  }
+  .mobile-prj-more-btn,
+  .mobile-prj-close-btn {
+    display: none;
   }
   .prj-record {
     flex-grow: 1;
@@ -378,19 +384,47 @@ body {
           display: flex;
           .prj-img-wrapper {
             width: 80px;
+            border-right: 1px solid #000;
+            border-bottom: 1px solid #000;
           }
+        }
+        .mobile-prj-more-btn {
+          display: block;
+          border-bottom: 1px solid #000;
+          &.clicked {
+            display: none;
+          }
+        }
+        .mobile-prj-close-btn {
+          display: none;
+          &.clicked {
+            display: block;
+          }
+        }
+        .mobile-prj-more-btn,
+        .mobile-prj-close-btn {
+          padding: 8px 0;
+          font-size: 0.8rem;
+          font-weight: 700;
         }
         .mobile-prj-detail-wrapper {
           display: none;
           flex: 1 1 0;
           flex-direction: column;
           position: absolute;
-          top: 100px;
+          top: 114px;
+          width: 100%;
+          height: calc(100vh - 116px);
+          background-color: #a98b98;
+          border-top: 1px dashed #000;
+          &.view {
+            display: flex;
+          }
         }
       }
     }
     .post-container {
-      margin-top: 6rem;
+      margin-top: 6.5rem;
       max-width: 100%;
       height: auto;
       background-color: #a98b98;
@@ -412,7 +446,7 @@ body {
       }
 
       .main-content {
-        margin-bottom: 4rem;
+        margin-bottom: 3.5rem;
         .main-item-txt-wrapper {
           padding: 1rem;
           .main-item-prj {
@@ -433,6 +467,10 @@ body {
           }
         }
       }
+
+      .post-content {
+        margin-bottom: 3.5rem;
+      }
     }
     .right-area {
       display: none;
@@ -451,7 +489,7 @@ body {
       position: fixed;
       bottom: 0;
       width: 100%;
-      font-size: 2rem;
+      font-size: 1.5rem;
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
       border: none;
@@ -552,25 +590,54 @@ body {
           .prj-subtitle {
             flex: 1 1 0;
             padding: 0.5rem;
+            max-height: 50px;
+            overflow: scroll;
           }
         }
         .mobile-prj-info-wrapper {
           display: flex;
           .prj-img-wrapper {
             width: 80px;
+            border-right: 1px solid #000;
+            border-bottom: 1px solid #000;
           }
+        }
+        .mobile-prj-more-btn {
+          display: block;
+          border-bottom: 1px solid #000;
+          &.clicked {
+            display: none;
+          }
+        }
+        .mobile-prj-close-btn {
+          display: none;
+          &.clicked {
+            display: block;
+          }
+        }
+        .mobile-prj-more-btn,
+        .mobile-prj-close-btn {
+          padding: 8px 0;
+          font-size: 0.8rem;
+          font-weight: 700;
         }
         .mobile-prj-detail-wrapper {
           display: none;
           flex: 1 1 0;
           flex-direction: column;
           position: absolute;
-          top: 100px;
+          top: 114px;
+          height: calc(100vh - 116px);
+          background-color: #a98b98;
+          border-top: 1px dashed #000;
+          &.view {
+            display: flex;
+          }
         }
       }
     }
     .post-container {
-      margin-top: 6rem;
+      margin-top: 6.5rem;
       max-width: 100%;
       height: auto;
       background-color: #a98b98;
@@ -592,7 +659,7 @@ body {
       }
 
       .main-content {
-        margin-bottom: 4rem;
+        margin-bottom: 3.5rem;
         .main-item-txt-wrapper {
           padding: 1rem;
           .main-item-prj {
@@ -613,6 +680,10 @@ body {
           }
         }
       }
+
+      .post-content {
+        margin-bottom: 4rem;
+      }
     }
     .right-area {
       display: none;
@@ -631,7 +702,7 @@ body {
       position: fixed;
       bottom: 0;
       width: 100%;
-      font-size: 2rem;
+      font-size: 1.5rem;
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
       border: none;
