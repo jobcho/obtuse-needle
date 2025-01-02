@@ -323,9 +323,6 @@ body {
   body {
     background-color: #fff;
   }
-  .link-hover {
-    text-decoration: 0.5px underline;
-  }
   .outer-container {
     display: flex;
     flex-direction: column;
@@ -442,6 +439,9 @@ body {
           &.view {
             display: flex;
           }
+          .prj-record-item {
+            text-decoration: underline;
+          }
         }
       }
     }
@@ -542,9 +542,6 @@ body {
 @media screen and (max-width: 424px) and (orientation: portrait) {
   body {
     background-color: #fff;
-  }
-  .link-hover {
-    text-decoration: 0.5px underline;
   }
   .outer-container {
     display: flex;
@@ -662,6 +659,10 @@ body {
           border-top: 1px dashed #000;
           &.view {
             display: flex;
+          }
+
+          .prj-record-item {
+            text-decoration: underline;
           }
         }
       }
