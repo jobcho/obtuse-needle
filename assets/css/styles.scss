@@ -51,10 +51,14 @@ body {
   overflow: scroll;
 
   .main-header {
+    display: flex;
+    flex-direction: column;
+    min-height: 182px;
     border-bottom: 1px solid #000;
     background-color: #344d67;
     .main-title {
-      padding: 3rem 2rem 2rem;
+      flex: 2 1 0;
+      padding: 3.5rem 2rem 2.5rem;
       font-family: "DOSPilgiMedium";
       font-size: 2rem;
       text-align: center;
@@ -78,6 +82,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem 1rem 1.3rem;
+    min-height: 182px;
     background-color: #a6f0c6;
     border-bottom: 1px dashed #000;
 
@@ -204,6 +209,7 @@ body {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .profile-wrapper,
   .prj-info-wrapper {
@@ -316,6 +322,9 @@ body {
 @media screen and (min-width: 425px) and (orientation: portrait) {
   body {
     background-color: #fff;
+  }
+  .link-hover {
+    text-decoration: 0.5px underline;
   }
   .outer-container {
     display: flex;
@@ -444,6 +453,7 @@ body {
 
       .main-header {
         padding-top: 2rem;
+        min-height: auto;
         .main-title {
           padding: 1.5rem;
           font-size: 2rem;
@@ -520,7 +530,8 @@ body {
         }
         .prj-item {
           display: inline;
-          font-size: 1.5rem;
+          font-size: 1.2rem;
+          line-height: 1.8rem;
           text-decoration: underline;
         }
       }
@@ -531,6 +542,9 @@ body {
 @media screen and (max-width: 424px) and (orientation: portrait) {
   body {
     background-color: #fff;
+  }
+  .link-hover {
+    text-decoration: 0.5px underline;
   }
   .outer-container {
     display: flex;
@@ -660,6 +674,7 @@ body {
 
       .main-header {
         padding-top: 1rem;
+        min-height: auto;
         .main-title {
           padding: 1rem;
           font-size: 1.5rem;
@@ -743,6 +758,7 @@ body {
         .prj-item {
           display: inline;
           font-size: 1rem;
+          line-height: 1.5rem;
           text-decoration: underline;
         }
       }
