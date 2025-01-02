@@ -127,8 +127,8 @@ body {
   width: 100%;
 }
 .post-container .post-content {
+  margin-bottom: 4rem;
   padding: 2rem 3rem;
-  height: calc(100vh - 178px);
   font-weight: 300;
   line-height: 1.8rem;
   color: #fff;
@@ -285,6 +285,7 @@ body {
     width: 100%;
   }
   .outer-container .left-area {
+    position: fixed;
     width: 100%;
     border: none;
   }
@@ -293,11 +294,11 @@ body {
     border-bottom: 1px solid #000;
   }
   .outer-container .left-area .site-info .profile-img-wrapper {
-    width: 20%;
+    width: 120px;
     border-right: 1px solid #000;
   }
   .outer-container .left-area .site-info .profile-txt-for-mobile {
-    flex-grow: 1;
+    flex: 1 1 0;
     display: flex;
     flex-direction: column;
   }
@@ -315,7 +316,7 @@ body {
     flex: 2 1 0;
     display: flex;
     padding: 0 0.5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.2rem;
   }
   .outer-container .left-area .site-info .profile-txt-for-mobile .profile-wrapper div {
@@ -353,7 +354,7 @@ body {
     display: flex;
   }
   .outer-container .left-area .prj-info .mobile-prj-info-wrapper .prj-img-wrapper {
-    width: 20%;
+    width: 80px;
   }
   .outer-container .left-area .prj-info .mobile-prj-detail-wrapper {
     display: none;
@@ -363,8 +364,13 @@ body {
     top: 100px;
   }
   .outer-container .post-container {
+    margin-top: 6rem;
     max-width: 100%;
     height: auto;
+    background-color: #a98b98;
+  }
+  .outer-container .post-container .main-header {
+    padding-top: 2rem;
   }
   .outer-container .post-container .main-header .main-title {
     padding: 1.5rem;
@@ -376,6 +382,9 @@ body {
   }
   .outer-container .post-container .main-header .info-txt-link .info-txt {
     padding: 1rem;
+  }
+  .outer-container .post-container .main-content {
+    margin-bottom: 4rem;
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper {
     padding: 1rem;
@@ -445,6 +454,7 @@ body {
     width: 100%;
   }
   .outer-container .left-area {
+    position: fixed;
     width: 100%;
     border: none;
   }
@@ -453,7 +463,7 @@ body {
     border-bottom: 1px solid #000;
   }
   .outer-container .left-area .site-info .profile-img-wrapper {
-    width: 25%;
+    width: 100px;
     border-right: 1px solid #000;
   }
   .outer-container .left-area .site-info .profile-txt-for-mobile {
@@ -513,7 +523,7 @@ body {
     display: flex;
   }
   .outer-container .left-area .prj-info .mobile-prj-info-wrapper .prj-img-wrapper {
-    width: 20%;
+    width: 80px;
   }
   .outer-container .left-area .prj-info .mobile-prj-detail-wrapper {
     display: none;
@@ -523,8 +533,13 @@ body {
     top: 100px;
   }
   .outer-container .post-container {
+    margin-top: 6rem;
     max-width: 100%;
     height: auto;
+    background-color: #a98b98;
+  }
+  .outer-container .post-container .main-header {
+    padding-top: 1rem;
   }
   .outer-container .post-container .main-header .main-title {
     padding: 1rem;
@@ -536,6 +551,9 @@ body {
   }
   .outer-container .post-container .main-header .info-txt-link .info-txt {
     padding: 0.5rem;
+  }
+  .outer-container .post-container .main-content {
+    margin-bottom: 4rem;
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper {
     padding: 1rem;
@@ -555,6 +573,9 @@ body {
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper .main-item-date {
     font-size: 0.8rem !important;
+  }
+  .outer-container .right-area {
+    display: none;
   }
   .outer-container .dimmed-layer {
     position: absolute;
