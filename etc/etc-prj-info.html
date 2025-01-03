@@ -1,17 +1,44 @@
-
-  <div class="prj-info">
-    <img class="prj-info-img" src="../assets/img/IMG_4390.JPG" alt="거북이가 벽을 뚫고 나온다." />
-    <p class="prj-title">여기는 뜨는 거 말고 전부 다</p>
-    <p class="prj-info-txt">생각이 많은 타입</p>
+<div class="prj-info">
+  <div class="mobile-prj-info-wrapper">
+    <div class="prj-img-wrapper">
+      <img
+        class="prj-info-img"
+        src="../assets/img/etc/IMG_4390.JPG"
+        alt="거북이가 벽을 뚫고 나온다."
+      />
+    </div>
+    <div class="prj-name-subtitle-wrapper">
+      <div class="prj-name-wrapper">
+        <p class="prj-title">etc</p>
+      </div>
+      <p class="prj-subtitle">여기는 뜨는 거 말고 전부 다</p>
+    </div>
   </div>
-  <div class="record">
-    <span>매일 뜨기 (000)</span>
-    <ul class="record-list">
-      <li class="record-item">
-        <a href="#"><span>플젝명</span><span>날짜</span><p>제목</p></p></a>
-      </li>
-      <li class="record-item">
-        <a href="#"><span>플젝명</span><span>날짜</span><p>제목</p></p></a>
-      </li>
-    </ul>
+  <button class="mobile-prj-more-btn" onclick="showPrjDetail()">
+    + 더보기 / 뜨개일지
+  </button>
+  <button class="mobile-prj-close-btn" onclick="closePrjDetail()">
+    - 닫기
+  </button>
+  <div class="mobile-prj-detail-wrapper">
+    <div class="prj-info-wrapper">
+      <p class="prj-info-item">도안 출처…</p>
+      <p class="prj-info-content">me</p>
+      <p class="prj-info-item">시작 날짜…</p>
+      <p class="prj-info-content">2024-10-00</p>
+      <p class="prj-info-item">완성 날짜…</p>
+      <p class="prj-info-content">0000-00-00</p>
+    </div>
+    <div class="prj-record">
+      <h3>뜨개 일지</h3>
+      <ul class="prj-record-list">
+        <li class="prj-record-item">
+          <a class="link-hover" href="why.html"
+            ><span>좀 구질하고 길게 쓴 이곳의 BTS</span
+            ><span class="prj-record-date">2024-12-25</span></a
+          >
+        </li>
+      </ul>
+    </div>
   </div>
+</div>

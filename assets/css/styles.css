@@ -145,6 +145,9 @@ body.modal-open {
 .post-container .post-content p {
   margin-bottom: 0.5rem;
 }
+.post-container .post-content .post-content-img {
+  width: 100%;
+}
 
 .left-area {
   display: flex;
