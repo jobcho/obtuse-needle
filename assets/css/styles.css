@@ -488,6 +488,9 @@ body.modal-open {
     margin-bottom: 3.5rem;
     padding: 1.5rem;
   }
+  .outer-container .post-container .post-content .link-hover {
+    text-decoration: underline;
+  }
   .outer-container .right-area {
     display: none;
   }
@@ -703,6 +706,9 @@ body.modal-open {
   .outer-container .post-container .post-content {
     margin-bottom: 3.5rem;
     padding: 1.5rem;
+  }
+  .outer-container .post-container .post-content .link-hover {
+    text-decoration: underline;
   }
   .outer-container .right-area {
     display: none;
