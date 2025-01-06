@@ -504,6 +504,8 @@ body.modal-open {
     display: inline;
     font-size: 1.2rem;
     line-height: 1.8rem;
+  }
+  .outer-container .mobile-bottom-area .mobile-all-project .prj-item.link-hover {
     text-decoration: underline;
   }
 }
@@ -718,6 +720,8 @@ body.modal-open {
     display: inline;
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+  .outer-container .mobile-bottom-area .mobile-all-project .prj-item.link-hover {
     text-decoration: underline;
   }
 }/*# sourceMappingURL=styles.css.map */

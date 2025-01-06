@@ -536,7 +536,9 @@ body {
           display: inline;
           font-size: 1.2rem;
           line-height: 1.8rem;
-          text-decoration: underline;
+          &.link-hover {
+            text-decoration: underline;
+          }
         }
       }
     }
@@ -764,7 +766,9 @@ body {
           display: inline;
           font-size: 1rem;
           line-height: 1.5rem;
-          text-decoration: underline;
+          &.link-hover {
+            text-decoration: underline;
+          }
         }
       }
     }
