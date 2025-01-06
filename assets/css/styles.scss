@@ -112,8 +112,9 @@ body {
       display: flex;
       flex-direction: column;
       width: 50%;
-      border-bottom: 1px solid #000;
-
+      &:not(:last-child) {
+        border-bottom: 1px solid #000;
+      }
       .main-item-img-wrapper {
         .main-item-img {
           aspect-ratio: 4/3;
@@ -492,6 +493,7 @@ body {
 
       .main-content {
         margin-bottom: 3.5rem;
+        border-bottom: 1px solid #000;
         .main-item-txt-wrapper {
           padding: 1rem;
           .main-item-prj {
@@ -717,6 +719,7 @@ body {
 
       .main-content {
         margin-bottom: 3.5rem;
+        border-bottom: 1px solid #000;
         .main-item-txt-wrapper {
           padding: 1rem;
           .main-item-prj {

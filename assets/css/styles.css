@@ -99,6 +99,8 @@ body.modal-open {
   display: flex;
   flex-direction: column;
   width: 50%;
+}
+.post-container .main-content .main-item:not(:last-child) {
   border-bottom: 1px solid #000;
 }
 .post-container .main-content .main-item .main-item-img-wrapper .main-item-img {
@@ -461,6 +463,7 @@ body.modal-open {
   }
   .outer-container .post-container .main-content {
     margin-bottom: 3.5rem;
+    border-bottom: 1px solid #000;
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper {
     padding: 1rem;
@@ -673,6 +676,7 @@ body.modal-open {
   }
   .outer-container .post-container .main-content {
     margin-bottom: 3.5rem;
+    border-bottom: 1px solid #000;
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper {
     padding: 1rem;
