@@ -354,6 +354,7 @@ body {
       width: 100%;
       border: none;
       border-bottom: 1px solid #000;
+      z-index: 99;
 
       .site-info {
         display: flex;
@@ -576,6 +577,7 @@ body {
       width: 100%;
       border: none;
       border-bottom: 1px solid #000;
+      z-index: 99;
 
       .site-info {
         display: flex;
