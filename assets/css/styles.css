@@ -148,6 +148,9 @@ body.modal-open {
 .post-container .post-content .post-content-img {
   width: 100%;
 }
+.post-container .post-content .post-content-youtube {
+  width: 100%;
+}
 
 .left-area {
   display: flex;
