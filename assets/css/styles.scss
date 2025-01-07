@@ -112,8 +112,10 @@ body {
       display: flex;
       flex-direction: column;
       width: 50%;
-      &:not(:last-child) {
-        border-bottom: 1px solid #000;
+      border-bottom: 1px solid #000;
+      &:last-child,
+      &:nth-last-child(2) {
+        border-bottom: none;
       }
       .main-item-img-wrapper {
         .main-item-img {

@@ -101,9 +101,10 @@ body.modal-open {
   display: flex;
   flex-direction: column;
   width: 50%;
-}
-.post-container .main-content .main-item:not(:last-child) {
   border-bottom: 1px solid #000;
+}
+.post-container .main-content .main-item:last-child, .post-container .main-content .main-item:nth-last-child(2) {
+  border-bottom: none;
 }
 .post-container .main-content .main-item .main-item-img-wrapper .main-item-img {
   aspect-ratio: 4/3;
