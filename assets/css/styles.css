@@ -277,7 +277,7 @@ body.modal-open {
 }
 .left-area .prj-subtitle {
   padding: 1rem;
-  font-family: "Pretendard Variable";
+  font-family: "Pretendard Variable", sans-serif;
   font-size: 14px;
   color: #0f1123;
   background-color: #dedede;
