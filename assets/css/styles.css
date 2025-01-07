@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import "reset.css";
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+@import "reset.css";
 @font-face {
   font-family: "Pretendard-Regular";
   src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
@@ -18,13 +18,13 @@
   font-style: normal;
 }
 html {
-  font-family: "Pretendard Variable";
+  font-family: "Pretendard Variable", sans-serif;
 }
 
 body {
   display: flex;
   justify-content: center;
-  font-family: "Pretendard Variable";
+  font-family: "Pretendard Variable", sans-serif;
   background-color: #4e3d53;
 }
 body.modal-open {

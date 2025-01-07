@@ -1,5 +1,3 @@
-@import "reset.css";
-
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
 
 @font-face {
@@ -25,14 +23,14 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@import "reset.css";
 html {
-  font-family: "Pretendard Variable";
+  font-family: "Pretendard Variable", sans-serif;
 }
 body {
   display: flex;
   justify-content: center;
-  font-family: "Pretendard Variable";
+  font-family: "Pretendard Variable", sans-serif;
   background-color: #4e3d53;
   &.modal-open {
     overflow: hidden;
