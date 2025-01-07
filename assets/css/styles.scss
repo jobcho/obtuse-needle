@@ -46,6 +46,8 @@ body {
 }
 
 .post-container {
+  display: flex;
+  flex-direction: column;
   max-width: 768px;
   height: 100vh;
   overflow: scroll;
@@ -157,6 +159,7 @@ body {
   }
 
   .post-content {
+    flex: 1;
     padding: 2rem 3rem;
     font-weight: 300;
     line-height: 1.8rem;
@@ -469,9 +472,10 @@ body {
       }
     }
     .post-container {
-      margin-top: 6.5rem;
+      padding-top: 6.5rem;
       max-width: 100%;
       height: auto;
+      min-height: 100vh;
       background-color: #a98b98;
 
       .main-header {
@@ -516,6 +520,7 @@ body {
       }
 
       .post-content {
+        flex: 1;
         margin-bottom: 3.5rem;
         padding: 1.5rem;
         .link-hover {
@@ -531,6 +536,7 @@ body {
       width: 100%;
       height: 100vh;
       background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
     }
     .mobile-bottom-area {
       display: flex !important;
@@ -545,6 +551,7 @@ body {
       border-top-right-radius: 1.5rem;
       border: none;
       box-shadow: 0 -5px 50px -25px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
       div {
         flex: 1 1 0;
       }
@@ -698,9 +705,10 @@ body {
       }
     }
     .post-container {
-      margin-top: 4.5rem;
+      padding-top: 4.5rem;
       max-width: 100%;
       height: auto;
+      min-height: 100vh;
       background-color: #a98b98;
 
       .main-header {
@@ -748,6 +756,7 @@ body {
         padding-top: 3rem;
       }
       .post-content {
+        flex: 1;
         margin-bottom: 3.5rem;
         padding: 1.5rem;
         .link-hover {
@@ -763,6 +772,7 @@ body {
       width: 100%;
       height: 100vh;
       background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
     }
     .mobile-bottom-area {
       display: flex !important;
@@ -777,6 +787,7 @@ body {
       border-top-right-radius: 1.5rem;
       border: none;
       box-shadow: 0 -5px 50px -25px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
       div {
         flex: 1 1 0;
       }
