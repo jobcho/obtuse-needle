@@ -550,8 +550,12 @@ body {
       border-top-left-radius: 1.5rem;
       border-top-right-radius: 1.5rem;
       border: none;
-      box-shadow: 0 -5px 50px -25px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.3);
       z-index: 1000;
+
+      &.no-shadow {
+        box-shadow: none;
+      }
       div {
         flex: 1 1 0;
       }
@@ -786,8 +790,12 @@ body {
       border-top-left-radius: 1.5rem;
       border-top-right-radius: 1.5rem;
       border: none;
-      box-shadow: 0 -5px 50px -25px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.3);
       z-index: 1000;
+
+      &.no-shadow {
+        box-shadow: none;
+      }
       div {
         flex: 1 1 0;
       }
