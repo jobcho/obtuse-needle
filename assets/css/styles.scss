@@ -138,8 +138,14 @@ body {
 
         .main-item-title {
           margin-bottom: 1rem;
-          font-size: 18px;
-          font-weight: 400;
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 2.2rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
         }
 
         .main-item-date {
@@ -317,6 +323,11 @@ body {
   color: #fff;
   background-color: #a98b98;
 
+  .mobile-bottom-arrow {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+  }
   .prj-title {
     margin-top: 1rem;
     font-family: "DOSPilgiMedium";
@@ -553,6 +564,16 @@ body {
       box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.3);
       z-index: 1000;
 
+      .mobile-bottom-arrow {
+        margin-left: 8px;
+        width: 16px;
+        height: 16px;
+
+        &.down {
+          transform: rotate(180deg);
+        }
+      }
+
       &.no-shadow {
         box-shadow: none;
       }
@@ -746,7 +767,7 @@ body {
           }
           .main-item-title {
             font-size: 1.2rem !important;
-            font-weight: 700 !important;
+            font-weight: 600 !important;
             line-height: 1.8rem;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -796,6 +817,16 @@ body {
       border: none;
       box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.3);
       z-index: 1000;
+
+      .mobile-bottom-arrow {
+        margin-left: 8px;
+        width: 16px;
+        height: 16px;
+
+        &.down {
+          transform: rotate(180deg);
+        }
+      }
 
       &.no-shadow {
         box-shadow: none;

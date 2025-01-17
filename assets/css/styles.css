@@ -125,8 +125,14 @@ body.modal-open {
 }
 .post-container .main-content .main-item .main-item-txt-wrapper .main-item-title {
   margin-bottom: 1rem;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .post-container .main-content .main-item .main-item-txt-wrapper .main-item-date {
   font-size: 14px;
@@ -294,6 +300,12 @@ body.modal-open {
   border-right: 1px solid #000;
   color: #fff;
   background-color: #a98b98;
+}
+.right-area .mobile-bottom-arrow,
+.mobile-bottom-area .mobile-bottom-arrow {
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
 }
 .right-area .prj-title,
 .mobile-bottom-area .prj-title {
@@ -522,6 +534,14 @@ body.modal-open {
     box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.3);
     z-index: 1000;
   }
+  .outer-container .mobile-bottom-area .mobile-bottom-arrow {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+  }
+  .outer-container .mobile-bottom-area .mobile-bottom-arrow.down {
+    transform: rotate(180deg);
+  }
   .outer-container .mobile-bottom-area.no-shadow {
     box-shadow: none;
   }
@@ -704,7 +724,7 @@ body.modal-open {
   }
   .outer-container .post-container .main-content .main-item-txt-wrapper .main-item-title {
     font-size: 1.2rem !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     line-height: 1.8rem;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -750,6 +770,14 @@ body.modal-open {
     border: none;
     box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.3);
     z-index: 1000;
+  }
+  .outer-container .mobile-bottom-area .mobile-bottom-arrow {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+  }
+  .outer-container .mobile-bottom-area .mobile-bottom-arrow.down {
+    transform: rotate(180deg);
   }
   .outer-container .mobile-bottom-area.no-shadow {
     box-shadow: none;
