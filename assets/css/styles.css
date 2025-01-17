@@ -525,6 +525,9 @@ body.modal-open {
   .outer-container .mobile-bottom-area.no-shadow {
     box-shadow: none;
   }
+  .outer-container .mobile-bottom-area.hidden {
+    z-index: 0;
+  }
   .outer-container .mobile-bottom-area div {
     flex: 1 1 0;
   }
@@ -750,6 +753,9 @@ body.modal-open {
   }
   .outer-container .mobile-bottom-area.no-shadow {
     box-shadow: none;
+  }
+  .outer-container .mobile-bottom-area.hidden {
+    z-index: 0;
   }
   .outer-container .mobile-bottom-area div {
     flex: 1 1 0;
