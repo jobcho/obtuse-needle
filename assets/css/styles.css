@@ -444,9 +444,9 @@ body.modal-open {
     flex: 1 1 0;
     flex-direction: column;
     position: absolute;
-    top: 113px;
+    top: 114px;
     width: 100%;
-    height: calc(100vh - 116px);
+    height: calc(100vh - 114px);
     background-color: #a98b98;
     border-top: 1px dashed #000;
   }
@@ -679,8 +679,8 @@ body.modal-open {
     flex: 1 1 0;
     flex-direction: column;
     position: absolute;
-    top: 113px;
-    height: calc(100vh - 116px);
+    top: 114px;
+    height: calc(100vh - 114px);
     background-color: #a98b98;
     border-top: 1px dashed #000;
   }
