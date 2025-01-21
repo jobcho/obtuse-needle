@@ -313,6 +313,10 @@ body {
   }
 }
 
+.right-area {
+  height: 100vh;
+  overflow: scroll;
+}
 .right-area,
 .mobile-bottom-area {
   padding: 1rem;

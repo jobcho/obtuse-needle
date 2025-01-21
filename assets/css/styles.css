@@ -291,6 +291,11 @@ body.modal-open {
   border-bottom: 1px solid #000;
 }
 
+.right-area {
+  height: 100vh;
+  overflow: scroll;
+}
+
 .right-area,
 .mobile-bottom-area {
   padding: 1rem;
