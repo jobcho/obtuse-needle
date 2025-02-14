@@ -156,6 +156,7 @@ body.modal-open {
 }
 .post-container .post-content p {
   margin-bottom: 0.5rem;
+  word-wrap: break-word;
 }
 .post-container .post-content .post-content-img {
   width: 100%;
